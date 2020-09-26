@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/GameOfLife.iml" filepath="$PROJECT_DIR$/.idea/modules/GameOfLife.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Game of Life/task/GameOfLife.Game_of_Life-task.iml" filepath="$PROJECT_DIR$/.idea/modules/Game of Life/task/GameOfLife.Game_of_Life-task.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Game of Life/task/GameOfLife.Game_of_Life-task.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Game of Life/task/GameOfLife.Game_of_Life-task.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Game of Life/task/GameOfLife.Game_of_Life-task.test.iml" filepath="$PROJECT_DIR$/.idea/modules/Game of Life/task/GameOfLife.Game_of_Life-task.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Problems/Account/GameOfLife.Problems-Account.iml" filepath="$PROJECT_DIR$/.idea/modules/Problems/Account/GameOfLife.Problems-Account.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Problems/Account/GameOfLife.Problems-Account.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Problems/Account/GameOfLife.Problems-Account.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Problems/Account/GameOfLife.Problems-Account.test.iml" filepath="$PROJECT_DIR$/.idea/modules/Problems/Account/GameOfLife.Problems-Account.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Problems/Binary search/GameOfLife.Problems-Binary_search.iml" filepath="$PROJECT_DIR$/.idea/modules/Problems/Binary search/GameOfLife.Problems-Binary_search.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Problems/Binary search/GameOfLife.Problems-Binary_search.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Problems/Binary search/GameOfLife.Problems-Binary_search.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Problems/Binary search/GameOfLife.Problems-Binary_search.test.iml" filepath="$PROJECT_DIR$/.idea/modules/Problems/Binary search/GameOfLife.Problems-Binary_search.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Problems/Classes for Hospital/GameOfLife.Problems-Classes_for_Hospital.iml" filepath="$PROJECT_DIR$/.idea/modules/Problems/Classes for Hospital/GameOfLife.Problems-Classes_for_Hospital.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Problems/Classes for Hospital/GameOfLife.Problems-Classes_for_Hospital.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Problems/Classes for Hospital/GameOfLife.Problems-Classes_for_Hospital.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Problems/Classes for Hospital/GameOfLife.Problems-Classes_for_Hospital.test.iml" filepath="$PROJECT_DIR$/.idea/modules/Problems/Classes for Hospital/GameOfLife.Problems-Classes_for_Hospital.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Problems/Complex/GameOfLife.Problems-Complex.iml" filepath="$PROJECT_DIR$/.idea/modules/Problems/Complex/GameOfLife.Problems-Complex.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Problems/Complex/GameOfLife.Problems-Complex.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Problems/Complex/GameOfLife.Problems-Complex.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Problems/Complex/GameOfLife.Problems-Complex.test.iml" filepath="$PROJECT_DIR$/.idea/modules/Problems/Complex/GameOfLife.Problems-Complex.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Problems/Getting input/GameOfLife.Problems-Getting_input.iml" filepath="$PROJECT_DIR$/.idea/modules/Problems/Getting input/GameOfLife.Problems-Getting_input.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Problems/Getting input/GameOfLife.Problems-Getting_input.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Problems/Getting input/GameOfLife.Problems-Getting_input.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Problems/Getting input/GameOfLife.Problems-Getting_input.test.iml" filepath="$PROJECT_DIR$/.idea/modules/Problems/Getting input/GameOfLife.Problems-Getting_input.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Problems/Getting the fullname/GameOfLife.Problems-Getting_the_fullname.iml" filepath="$PROJECT_DIR$/.idea/modules/Problems/Getting the fullname/GameOfLife.Problems-Getting_the_fullname.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Problems/Getting the fullname/GameOfLife.Problems-Getting_the_fullname.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Problems/Getting the fullname/GameOfLife.Problems-Getting_the_fullname.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Problems/Getting the fullname/GameOfLife.Problems-Getting_the_fullname.test.iml" filepath="$PROJECT_DIR$/.idea/modules/Problems/Getting the fullname/GameOfLife.Problems-Getting_the_fullname.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Problems/Sorting arrays/GameOfLife.Problems-Sorting_arrays.iml" filepath="$PROJECT_DIR$/.idea/modules/Problems/Sorting arrays/GameOfLife.Problems-Sorting_arrays.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Problems/Sorting arrays/GameOfLife.Problems-Sorting_arrays.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Problems/Sorting arrays/GameOfLife.Problems-Sorting_arrays.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Problems/Sorting arrays/GameOfLife.Problems-Sorting_arrays.test.iml" filepath="$PROJECT_DIR$/.idea/modules/Problems/Sorting arrays/GameOfLife.Problems-Sorting_arrays.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/util/GameOfLife.util.iml" filepath="$PROJECT_DIR$/.idea/modules/util/GameOfLife.util.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/util/GameOfLife.util.main.iml" filepath="$PROJECT_DIR$/.idea/modules/util/GameOfLife.util.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/util/GameOfLife.util.test.iml" filepath="$PROJECT_DIR$/.idea/modules/util/GameOfLife.util.test.iml" />
+    </modules>
+  </component>
+</project>
