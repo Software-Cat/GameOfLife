@@ -1,16 +1,18 @@
 content:
-  - Binary search
+- Binary search
 - Getting input
 - Sorting arrays
-  - Complex
-  - Account
-  - Getting the fullname
-  - Classes for Hospital
-  - Avoid division by zero
-  - String to double conversion
-  - Catching some exceptions
-  - Converting and multiplying
-  - Overloading methods
-  - Phone
-  - Time
-  - Employee
+- Complex
+- Account
+- Getting the fullname
+- Classes for Hospital
+- Avoid division by zero
+- String to double conversion
+- Catching some exceptions
+- Converting and multiplying
+- Overloading methods
+- Phone
+- Time
+- Employee
+- Bank account
+- Employees
