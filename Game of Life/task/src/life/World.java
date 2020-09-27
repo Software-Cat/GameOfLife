@@ -71,6 +71,18 @@ public class World {
         this.grid = nextTick.grid;
     }
 
+    public int countLiving() {
+        int livingCount = 0;
+        for (int x = 0; x < worldSize; x++) {
+            for (int y = 0; y < worldSize; y++) {
+                if (isLiving(x, y)) {
+                    livingCount++;
+                }
+            }
+        }
+        return livingCount;
+    }
+
     private int getLivingNeighbours(int x, int y) {
         int livingCount = 0;
 

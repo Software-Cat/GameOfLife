@@ -5,10 +5,10 @@ import java.util.Random;
 public class WorldGen {
     private WorldGen() { }
 
-    public static World genWorld(int worldSize, long seed) {
+    public static World genWorld(int worldSize) {
         boolean[][] initialGrid = new boolean[worldSize][worldSize];
 
-        Random rng = new Random(seed);
+        Random rng = new Random();
 
         for (int i = 0; i < initialGrid.length; i++) {
             for (int j = 0; j < initialGrid[i].length; j++) {
