@@ -229,32 +229,132 @@ files:
         }
     }
   learner_created: false
-- name: src/life/GameOfLife.java
+- name: src/life/World.java
   visible: true
   text: |
     package life;
 
-    import javax.swing.*;
+    public class World {
+        private final int[][] LIVING_CHECK_DIRECTIONS = {
+                {0, -1},
+                {1, -1},
+                {1, 0},
+                {1, 1},
+                {0, 1},
+                {-1, 1},
+                {-1, 0},
+                {-1, -1},
+        };
 
-    public class GameOfLife extends JFrame {
-        public GameOfLife() {
-            setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-            setSize(300, 300);
-            setVisible(true);
+        private final int worldSize;
+        private boolean[][] grid;
+
+        public World(boolean[][] initialGrid) {
+            grid = initialGrid;
+            worldSize = initialGrid.length;
+        }
+
+        public void printWorld() {
+            for (boolean[] row : grid) {
+                for (boolean state : row) {
+                    if (state) {
+                        System.out.print("O");
+                    } else {
+                        System.out.print(" ");
+                    }
+                }
+                System.out.println();
+            }
+        }
+
+        public boolean isLiving(int x, int y) {
+            x = Math.floorMod(x, worldSize);
+            y = Math.floorMod(y, worldSize);
+            return grid[y][x];
+        }
+
+        public void setState(int x, int y, boolean state) {
+            x = Math.floorMod(x, worldSize);
+            y = Math.floorMod(y, worldSize);
+            grid[y][x] = state;
+        }
+
+        public void tick() {
+            World nextTick = new World(new boolean[worldSize][worldSize]);
+
+            for (int x = 0; x < worldSize; x++) {
+                for (int y = 0; y < worldSize; y++) {
+                    if (isLiving(x, y)) {
+                        switch (getLivingNeighbours(x, y)) {
+                            case 2:
+                            case 3:
+                                nextTick.setState(x, y, true);
+                                break;
+                            default:
+                                nextTick.setState(x, y, false);
+                                break;
+                        }
+                    } else {
+                        if (getLivingNeighbours(x, y) == 3) {
+                            nextTick.setState(x, y, true);
+                        }
+                    }
+                }
+            }
+
+            this.grid = nextTick.grid;
+        }
+
+        public int countLiving() {
+            int livingCount = 0;
+            for (int x = 0; x < worldSize; x++) {
+                for (int y = 0; y < worldSize; y++) {
+                    if (isLiving(x, y)) {
+                        livingCount++;
+                    }
+                }
+            }
+            return livingCount;
+        }
+
+        private int getLivingNeighbours(int x, int y) {
+            int livingCount = 0;
+
+            for (int[] direction : LIVING_CHECK_DIRECTIONS) {
+                if (isLiving(x + direction[0], y + direction[1])) {
+                    livingCount++;
+                }
+            }
+
+            return livingCount;
         }
     }
-  learner_created: false
-- name: src/life/ApplicationRunner.java
+  learner_created: true
+- name: src/life/WorldGen.java
   visible: true
   text: |
     package life;
 
-    public class ApplicationRunner {
-        public static void main(String[] args) {
-            new GameOfLife();
+    import java.util.Random;
+
+    public class WorldGen {
+        private WorldGen() { }
+
+        public static World genWorld(int worldSize) {
+            boolean[][] initialGrid = new boolean[worldSize][worldSize];
+
+            Random rng = new Random();
+
+            for (int i = 0; i < initialGrid.length; i++) {
+                for (int j = 0; j < initialGrid[i].length; j++) {
+                    initialGrid[i][j] = rng.nextBoolean();
+                }
+            }
+
+            return new World(initialGrid);
         }
     }
-  learner_created: false
+  learner_created: true
 feedback_link: https://hyperskill.org/projects/54/stages/298/implement
 status: Unchecked
 record: -1

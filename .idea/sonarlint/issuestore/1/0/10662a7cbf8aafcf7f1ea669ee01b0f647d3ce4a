@@ -1,0 +1,12 @@
+
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ŒÎ¼ï8…ÛÈôÌ.
+7
+java:S1220""Move this file to a named package.8…ÛÈôÌ.
+X	java:S106"9Replace this use of System.out or System.err by a logger.(Šö‡›ıÿÿÿÿ8…ÛÈôÌ.
+X	java:S106"9Replace this use of System.out or System.err by a logger.(­·Ğüÿÿÿÿ8İüÊôÌ.
+f
+java:S2259"FA "NullPointerException" could be thrown; "integers" is nullable here.(¬èØöøÿÿÿÿ8…ÛÈôÌ.
+S	java:S106"9Replace this use of System.out or System.err by a logger.(†ô±‰8ÓğÍôÌ.
+R	java:S106"9Replace this use of System.out or System.err by a logger.(üî÷L8…ÛÈôÌ.
+Y
+java:S3518"9Make sure "sum" can't be zero before doing this division.(¬èØöøÿÿÿÿ8…ÛÈôÌ.
