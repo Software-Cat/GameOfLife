@@ -179,3 +179,61 @@ X
 (Problems/Employees/task-remote-info.yaml,d\9\d92d7dcc226855290ae03a65238e49ff50b6c630
 P
  Problems/Employees/src/Main.java,b\0\b0f601c24d9665d67afd3e4dae3ad2c60d2c6c02
+`
+0Game of Life/task/test/common/CheckResultUtil.kt,c\0\c0dbde5f155594922563cfe7ed6743395d82b187
+`
+0Game of Life/task/test/common/ClueWithChecker.kt,1\f\1f20afce3b49537c48d006d6ce3e86eb16904773
+x
+H.idea/modules/Problems/Publications/GameOfLife.Problems-Publications.iml,e\c\ecfeed0b2d3613d2bc10e0b19a5a91e626e79a09
+}
+M.idea/modules/Problems/Publications/GameOfLife.Problems-Publications.main.iml,d\d\dd9404ba19852f00c6ef69dabb2001f6a15f9ad3
+}
+M.idea/modules/Problems/Publications/GameOfLife.Problems-Publications.test.iml,3\4\348654485f509101e2b3864e6c0c36be5402b063
+|
+L.idea/modules/Problems/Saying animals/GameOfLife.Problems-Saying_animals.iml,9\7\97b20e9410c7ab7c4fdf308f820c0860a9c88d32
+Å
+Q.idea/modules/Problems/Saying animals/GameOfLife.Problems-Saying_animals.main.iml,0\2\02056f2ee599645c05de5456c7e5b3d24370aa09
+Å
+Q.idea/modules/Problems/Saying animals/GameOfLife.Problems-Saying_animals.test.iml,f\2\f265ae4c6eda5911f6f53d94b51b0450ecf00b5b
+v
+F.idea/modules/Problems/Shapes area/GameOfLife.Problems-Shapes_area.iml,c\d\cd971e6240ef7d106f0fd159bd16350f919fbd58
+{
+K.idea/modules/Problems/Shapes area/GameOfLife.Problems-Shapes_area.main.iml,9\5\950b1e3e8509c7729b842710a95a8d309be5f8a0
+{
+K.idea/modules/Problems/Shapes area/GameOfLife.Problems-Shapes_area.test.iml,4\9\49e6951800e94f298d6a1233651ffca6956468e9
+e
+5Game of Life/task/test/common/GameOfLifeCommonTest.kt,e\4\e4eaa546b57d8b3fe4ea6b0471953a30bdcff522
+e
+5Game of Life/task/test/common/GameOfLifeStage4Test.kt,2\c\2c222a1a77676f709caa5af8b9eee54d2633a6c9
+M
+Game of Life/lesson-info.yaml,5\b\5b93d0c8169a4af367a4591d307dda6b5ebac0bb
+U
+%Problems/Saying animals/src/Main.java,e\4\e437eee3b771ac483cf03ab0682b9d5830c7e5df
+R
+"Problems/Shapes area/src/Main.java,1\a\1a09a495320f3d1c433e60a0aea82602444d3d39
+O
+Problems/Publications/task.html,5\f\5f082b8e29e94e5844c3aa3b8047197dd9d0b0b6
+Q
+!Problems/Saying animals/task.html,9\9\99fd14ed72af8f160148198d815079da04896a11
+N
+Problems/Shapes area/task.html,b\4\b42e8a3e34c24d501d01b16383bf5d372e4da107
+Y
+)Game of Life/Looking good!/task-info.yaml,d\d\dd1f7ccb1c435a5c514e6e436fcc2d8cf116ba9e
+T
+$Problems/Publications/task-info.yaml,c\e\ce90e193a1ea048d7a3efdac5a1bbd7d7655efaa
+V
+&Problems/Saying animals/task-info.yaml,c\1\c1e752d2fc27a0f0cbcb781696dead8266a2baf4
+S
+#Problems/Shapes area/task-info.yaml,b\7\b7bab7ec2eada95dbd1bb702ba27d25ebf97ff37
+\
+,Game of Life/Gamify it/task-remote-info.yaml,c\6\c69d57471dad95f812c0bc07f863242e5e764f21
+[
++Problems/Publications/task-remote-info.yaml,e\9\e9362c4b5c638817dc4e0b6ff372b0337e64e1b5
+]
+-Problems/Saying animals/task-remote-info.yaml,7\c\7c7b4477c2b7d07b5437c2ec605ec964f8a05716
+Z
+*Problems/Shapes area/task-remote-info.yaml,1\1\116e37c3e6212a2c2252b441e09566fdb38a516c
+b
+2Game of Life/task/test/common/UiTestsGenerators.kt,2\1\21c5913581b37f5861da9e66f1f552165035304f
+S
+#Problems/Publications/src/Main.java,4\5\45f052e7297027d336ccfdf18d8391cd9dd654c7
